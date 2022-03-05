@@ -4,5 +4,5 @@ span.label {
 
 span.label:after {
     content: "Drag and drop me in your bookmark bar";
-    font-size: 15px;
+    font-size: 17px;
 }
