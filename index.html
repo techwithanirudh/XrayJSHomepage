@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<script src="https://cdn.tailwindcss.com">
+
+	</script>
+	<script src="https://kit.fontawesome.com/23a13b5c04.js" crossorigin="anonymous">
+
+	</script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="flex flex-col mt-5 items-center content-center space-y-4">
+		<div class="shadow sm:rounded-md sm:overflow-hidden">
+			<div class="px-4 py-5 bg-slate-100 space-y-6 sm:p-6 dark:bg-slate-800">
+				<h1 class="text-2xl font-bold"><span class="select-none">1.</span> Open Your Bookmark Toolbar</h1>
+				<div class="ml-5 space-y-5">
+				<img class="w-[400px] rounded rounded-md" src="https://cdn.glitch.com/4be08ec8-dd6f-4a0e-88a4-0bcf147aa4e8%2Fbookmark1-windows-chrome%402x.png?v=1568210258262" alt="A graphic showing how to turn on the bookmarks bar">
+				<p class="text-md text-clip overflow-hidden max-w-[650px]">If you're using Chrome, click the options icon to the right of your URL bar, select Bookmarks, then make sure Show bookmarks bar is selected.</p>
+				<h1 class="text-1xl font-bold">Instructions for other platforms: </h1>
+
+				<ul class="list-disc">
+            <li>
+              Windows:&nbsp;
+              <ul class="inline-block p-0 m-0">
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('windows', 'chrome')">Chrome</span></li>
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('windows', 'firefox')">Firefox</span></li>
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('windows', 'ie')">Internet Explorer</span></li>
+              </ul>
+            </li>
+            <li>
+              Mac:&nbsp;
+              <ul class="inline-block p-0 m-0">
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('mac', 'chrome')">Chrome</span></li>
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('mac', 'firefox')">Firefox</span></li>
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('mac', 'safari')">Safari</span></li>
+              </ul>
+            </li>
+            <li>
+              Other:&nbsp;
+              <ul class="inline-block p-0 m-0">
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('other', 'chrome')">Chrome</span></li>
+                <li class="inline-block text-indigo-500 hover:text-indigo-800 cursor-pointer p-1"><span onclick="browserOsSwitch('other', 'firefox')">Firefox</span></li>
+              </ul>
+            </li>
+          </ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="shadow sm:rounded-md sm:overflow-hidden">
+			<div class="px-4 py-5 bg-slate-100 space-y-6 sm:p-6 dark:bg-slate-800">
+				<a class="ml-5 bg-white text-blue-700 font-semibold hover:bg-blue-700 border border-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 hover:border-transparent hover:text-white font-bold py-2 px-4 border-b-4 rounded-full"
+				 href="javascript:(function () {var script=document.createElement('script');script.src='https://x-ray-goggles.mouse.org/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://x-ray-goggles.mouse.org');document.body.appendChild(script);}())"><span class="fa-solid fa-arrows-up-down-left-right"></span><span class="label ml-1">X-Ray Goggles</span></a>
+			</div>
+		</div>
+	</div>
+<!-- 
+<figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+  <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p class="text-lg font-medium">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+    <figcaption class="font-medium">
+      <div class="text-sky-500 dark:text-sky-400">
+        Sarah Dayan
+      </div>
+      <div class="text-slate-700 dark:text-slate-500">
+        Staff Engineer, Algolia
+      </div>
+    </figcaption>
+  </div>
+</figure>  -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+span.label {
+	font-size: 0px;
+}
+
+span.label:after {
+    content: "Drag and drop me in your bookmark bar";
+    font-size: 15px;
+}
